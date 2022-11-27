@@ -12,7 +12,7 @@ from sklearn.preprocessing import MultiLabelBinarizer
 # get geo locations of attendees
 geolocator = Nominatim(user_agent='wichteln')
 
-ATTENDEES: Dict[str, Tuple[float, float]] = {
+ATTENDEES: Dict[str, Location] = {
     'Jochen': geolocator.geocode("Linsengericht"),
     'Sebastian H': geolocator.geocode("Etzelwang"),
     'Manuel': geolocator.geocode("Wolnzach"),
