@@ -1,6 +1,6 @@
 """Maximization of sum distance between pairs for a fair cultural exchange."""
 import itertools
-from typing import Dict, Tuple
+from typing import Dict
 
 import numpy as np
 from geopy.distance import distance
